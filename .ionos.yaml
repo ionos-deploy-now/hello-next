@@ -1,0 +1,13 @@
+---
+distFolder: dist
+setup:
+- name: Setup Node.js v10.24.x
+  action: actions/setup-node@v1
+  properties:
+    node-version: v10.24.x
+prepare:
+  name: Prepare project build environment
+  command: npm ci
+build:
+  name: Build Next
+  command: npm run build
