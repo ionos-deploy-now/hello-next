@@ -1,5 +1,5 @@
 ---
-distFolder: dist
+distFolder: out
 setup:
 - name: Setup Node.js v10.24.x
   action: actions/setup-node@v1
