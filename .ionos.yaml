@@ -1,13 +1,13 @@
 ---
 distFolder: out
 setup:
-- name: Setup Node.js v10.24.x
+- name: Setup project
   action: actions/setup-node@v1
   properties:
-    node-version: v10.24.x
+    node-version: v12.22.3
 prepare:
-  name: Prepare project build environment
+  name: Prepare project environment
   command: npm ci
 build:
-  name: Build Next
+  name: Build project
   command: npm run build
