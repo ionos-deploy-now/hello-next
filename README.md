@@ -1,30 +1,28 @@
-# hello-next
+# Hugo Sample for Deploy Now
 
-[![Deploy to IONOS](https://images.ionos.space/deploy-now-icons/deploy-to-ionos-btn.svg)](https://ionos.space/setup?repo=https://github.com/ionos-deploy-now/hello-next)
+This is a basic Static Site Generation Next website. You can use it as a starting point for your project or to give [Deploy Now](https://www.ionos.com/hosting/deploy-now) a try. This project does not require Server Side Rendering.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## How to deploy it 
 
-## Getting Started
+1. [Sign in or sign up](https://ionos.space/sign-up) for Deploy Now
+2. Click this button and name your new repo
 
-First, run the development server:
+   [![Deploy to IONOS](https://images.ionos.space/deploy-now-icons/deploy-to-ionos-btn.svg)](https://ionos.space/setup?repo=https://github.com/ionos-deploy-now/hello-next)
 
-```bash
-npm run dev
-```
+3. Deploy Now will detect necessary build dependencies and commands. You can adjust them and add environment variables.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Afterwards, Deploy Now will set up a [GitHub Actions](https://github.com/features/actions) workflow that will be triggered by every new code commit. Build results are automatically deployed to IONOS infrastructure. Projects go live under a preview URL, but you can replace it with a custom domain anytime.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Helpful links
+[Deploy Now docs](https://docs.ionos.space/)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[About Static Sites on Deploy Now](https://docs.ionos.space/docs/deploy-static-sites/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[About build configuration](https://docs.ionos.space/docs/github-actions-customization/)
 
-## Learn More
+[Sign up for Deploy Now](https://ionos.space/sign-up)
 
-To learn more about Next.js, take a look at the following resources:
+Missing a feature? Create a [GitHub issue](https://github.com/ionos-deploy-now/ionos-deploy-now/issues). 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+_IONOS Deploy Now - made with :heart: by [us](https://docs.ionos.space/about-us/) in Karlsruhe, Germany_
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
